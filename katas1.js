@@ -123,7 +123,7 @@ function oddNumbersBackwards() {
   Write a for or a while loop
   return the result */
   let meuRetorno = []; 
-  for(let counter = 19; counter >= 1; counter--){
+  for(let counter = 19; counter >= 1; counter-=2){
     meuRetorno.push(counter);
   }
   return meuRetorno;
@@ -131,14 +131,24 @@ function oddNumbersBackwards() {
 
 //call function oddNumbersBackwards
 
+console.log(oddNumbersBackwards());
+
 function multiplesOfFiveBackwards() {
     
  /* Your code goes below
   Write a for or a while loop
   return the result */
+
+  let meuRetorno = []; 
+  for(let counter = 100; counter >= 5; counter-=5){
+    meuRetorno.push(counter);
+  }
+  return meuRetorno;
 }
 
 //call function multiplesOfFiveBackwards
+
+console.log(multiplesOfFiveBackwards());
 
 function squareNumbersBackwards() {
     
