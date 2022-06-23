@@ -55,9 +55,16 @@ function multiplesOfFive() {
   Write a for or a while loop
   return the result */
 
+  let meuRetorno = []; 
+  for(let counter = 5; counter <= 100; counter+=5){
+    meuRetorno.push(counter);
+  }
+  return meuRetorno;
 }
 
 //call function multiplesOfFive
+
+console.log(multiplesOfFive());
 
 function squareNumbers() {
     
