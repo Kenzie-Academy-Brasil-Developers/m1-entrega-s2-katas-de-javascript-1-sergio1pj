@@ -88,9 +88,17 @@ function countingBackwards() {
   /* Your code goes below
   Write a for or a while loop
   return the result */
+
+  let meuRetorno = []; 
+  for(let counter = 20; counter >= 1; counter--){
+    meuRetorno.push(counter);
+  }
+  return meuRetorno;
 }
 
 //call function countingBackwards
+
+console.log(countingBackwards());
 
 function evenNumbersBackwards() {
     
