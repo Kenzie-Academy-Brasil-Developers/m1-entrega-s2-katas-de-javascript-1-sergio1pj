@@ -20,20 +20,34 @@ function evensToTwenty() {
    /* Your code goes below
    Write a for or a while loop
    return the result */
-  
+
+  let meuRetorno = []; 
+  for(let counter = 2; counter <= 20; counter+=2){
+    meuRetorno.push(counter);
+  }
+  return meuRetorno;
 }
 
 //call function evensToTwenty
+
+console.log(evensToTwenty());
 
 function oddsToTwenty() {
     
   /* Your code goes below
   Write a for or a while loop
   return the result */
-   
+
+  let meuRetorno = []; 
+  for(let counter = 1; counter <= 20; counter+=2){
+    meuRetorno.push(counter);
+  }
+  return meuRetorno;
 }
 
 //call function oddsToTwenty
+
+console.log(oddsToTwenty());
 
 function multiplesOfFive() {
     
