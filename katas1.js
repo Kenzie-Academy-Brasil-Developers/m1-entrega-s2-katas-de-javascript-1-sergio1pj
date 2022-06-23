@@ -71,10 +71,17 @@ function squareNumbers() {
  /* Your code goes below
   Write a for or a while loop
   return the result */
-    
+
+  let meuRetorno = []; 
+  for(let counter = 1; counter <= 10; counter++){
+    meuRetorno.push(counter * counter);
+  }
+  return meuRetorno;
 }
 
 //call function squareNumbers
+
+console.log(squareNumbers());
 
 function countingBackwards() {
     
