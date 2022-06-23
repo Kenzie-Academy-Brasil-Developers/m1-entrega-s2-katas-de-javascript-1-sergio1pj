@@ -155,6 +155,13 @@ function squareNumbersBackwards() {
    /* Your code goes below
   Write a for or a while loop
   return the result */
+    
+  let meuRetorno = []; 
+  for(let counter = 10; counter >= 1; counter--){
+    meuRetorno.push(counter * counter);
+  }
+  return meuRetorno;
 }
 
 //call function squareNumbersBackwards
+console.log(squareNumbersBackwards());
