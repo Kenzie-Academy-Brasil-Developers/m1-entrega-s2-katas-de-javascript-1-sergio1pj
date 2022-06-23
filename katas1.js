@@ -105,9 +105,17 @@ function evenNumbersBackwards() {
  /* Your code goes below
   Write a for or a while loop
   return the result */
+
+  let meuRetorno = []; 
+  for(let counter = 20; counter >= 2; counter--){
+    meuRetorno.push(counter);
+  }
+  return meuRetorno;
 }
 
 //call function evenNumbersBackwards
+
+console.log(evenNumbersBackwards());
 
 function oddNumbersBackwards() {
     
