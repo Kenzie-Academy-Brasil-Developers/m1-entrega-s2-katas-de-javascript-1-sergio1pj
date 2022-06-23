@@ -3,10 +3,17 @@ function oneThroughTwenty() {
    /* Your code goes below
    Write a for or a while loop
    return the result*/
-    
+
+  let meuRetorno = []; 
+  for(let counter = 1; counter <= 20; counter++){
+    meuRetorno.push(counter);
+  }
+  return meuRetorno;
 }
 
 //call function oneThroughTwenty
+
+console.log(oneThroughTwenty());
 
 function evensToTwenty() {
     
